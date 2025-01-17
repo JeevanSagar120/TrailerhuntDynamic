@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: white;
+}
+label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: px;
+    text-transform: capitalize;
+}
+h3 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+#chkbtn {
+    color: black;
+    border: 1px solid black;
+    accent-color: red;
+}
+.imgdetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+img {
+    height: 90px;
+    width: 300px;
+}
+
+#loginContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+#btn {
+    width: 150px;
+    font-size: 17px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    margin-top: 20px;
+    color: white;
+}
+.credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: 14px;
+}
+.btnsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lgntype{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}

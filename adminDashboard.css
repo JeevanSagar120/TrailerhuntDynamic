@@ -1,0 +1,44 @@
+@charset "UTF-8";
+button{
+    height: 100px;
+    width: 270px;
+     background-color: rgba(75, 255, 72, 0.7);
+ color: white;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: capitalize;
+    white-space: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+}
+.title{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}

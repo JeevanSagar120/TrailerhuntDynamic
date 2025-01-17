@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trailer Hunt / Admin</title>
+    <link rel="stylesheet" href="admin.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/33bbd11d25.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background-color: black">
+    <div class="screen1" id="screen1">
+      <div class="lgntype">
+        <select name="Switch" id="switch">
+          <option value="Admin">Admin</option>
+          <option value="User">User</option>
+        </select>
+      </div>
+
+      <div class="imgdetails">
+        <img src="./images/LoginpageLogo.jpg" alt="Logo" />
+      </div>
+
+      <div class="container-fluid" id="loginContent">
+        <form id="loginForm">
+          <center>
+            <h3 class="mb-5">Admin Login</h3>
+          </center>
+          <div class="mb-3">
+            <label for="email" class="form-label"><i><b>Email address</b></i></label>
+            <input
+              type="email"
+              name="mail"
+              class="form-control"
+              id="email"
+              placeholder="mail@xyz.com"
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label"><i><b>Password</b></i></label>
+            <input
+              type="password"
+              name="password"
+              class="form-control"
+              id="password"
+              placeholder=". . . . . . . ."
+              required
+            />
+          </div>
+
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="chkbtn"
+              style="accent-color: red"
+            />
+            <label class="form-check-label" for="chkbtn">Show Password</label>
+          </div>
+
+          <div class="form-text mb-3">
+            <center><strong id="error-details" style="color: red;"></strong></center>
+          </div>
+
+          <center>
+            <div class="btnsection">
+              <button type="submit" id="btn" class="btn">
+                <i class="fa fa-user"></i> Login
+              </button>
+            </div>
+          </center>
+        </form>
+      </div>
+
+      <div class="credits">
+        <p style="color: white; font-size: 20px; margin-top: 170px">
+          &copy; 2024 Trailer Hunt, All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

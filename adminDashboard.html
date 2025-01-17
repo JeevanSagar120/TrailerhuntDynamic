@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailer Hunt / Admin Dashboard</title>
+    <link rel="stylesheet" href="adminDashboard.css">
+</head>
+<style>
+	button {
+	 background-color: rgba(75, 255, 72, 0.7);
+ color: white;
+}
+</style>
+<body>
+    <div class="title">
+       <center>
+        <h1>
+            Admin Dashboard
+        </h1>
+       </center>
+    </div>
+<div class="main">
+    <div class="container">
+    
+    <!--Admins  -->
+    <div class="showadmins">
+        <form action="admins" method="get">
+            <button>
+                <h1>
+                    admins
+                </h1>
+            </button>
+        </form>
+    </div>
+    
+    
+    <!-- Add Admins -->
+    <div class="add">
+        <form action="addAdmin.html" method="get">
+            <button>
+                <h1>
+                    Add Admin
+                </h1>
+            </button>
+        </form>
+    </div>
+    
+    
+    
+    
+    <!--Remove admin  -->
+        <div class="removeadmins">
+        <form action="removeadmin" method="post">
+            <button>
+                <h1>
+                    Remove admin
+                </h1>
+            </button>
+        </form>
+    </div>
+    
+    
+    
+    <!-- Users  -->
+        <div class="users">
+        <form action="users" method="get">
+            <button  type="submit">
+                <h1>
+                    Users
+                </h1>
+            </button>
+        </form>
+    </div>
+    
+    <!-- Add User -->
+	    <div class="users">
+        <form action="addUser.html" method="get">
+            <button  type="submit">
+                <h1>
+                    Add User
+                </h1>
+            </button>
+        </form>
+    </div>
+	    
+    <!-- Users Activity -->
+    <div class="useract">
+        <form action="userActivity" method="post">
+            <button>
+                <h1>
+                    Users activity
+                </h1>
+            </button>    
+        </form>
+    </div>
+    
+    
+    <!-- Update User Details -->
+    <div class="updateDetails">
+        <form action="updateUsers.html" method="post">
+            <button>
+                <h1>
+                    Update  Passwords
+                </h1>
+            </button>
+        </form>
+   		 </div>
+    </div> 
+</div>
+</body>
+</html>
